@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="..\RSDKv5-GameAPI\CPP\GameAPI\Game.cpp">
+      <Filter>GameAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Player.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Invincibility.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\BlueShield.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Breakables.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects\Parachute.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\RSDKv5-GameAPI\CPP\GameAPI\Game.hpp">
+      <Filter>GameAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RSDKv5-GameAPI\CPP\GameAPI\GameObjects.hpp">
+      <Filter>GameAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\RSDKv5-GameAPI\CPP\GameAPI\GameVariables.hpp">
+      <Filter>GameAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SonicNexus.hpp" />
+    <ClInclude Include="Objects\Player.hpp">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Invincibility.hpp">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\BlueShield.hpp">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Monitor.hpp">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Chompy.hpp">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\FrogOmatic.hpp">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\HelliBomber.hpp">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\MRally.hpp">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects\Parachute.hpp">
+      <Filter>Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="GameAPI">
+      <UniqueIdentifier>{d8e7432a-6aeb-421c-ba9b-e40998539e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{50f0ffa0-7e3b-4fc3-9822-28ce8f80dcd9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
